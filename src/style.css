@@ -1,1 +1,19 @@
 /* styles go here */
+.fieldset {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formField {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.formField:first-of-type,
+.fieldset:first-of-type {
+  margin-top: 0;
+}
+
+.formField:last-of-type {
+  margin-bottom: 0;
+}
